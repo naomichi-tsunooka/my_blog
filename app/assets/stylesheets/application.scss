@@ -12,3 +12,12 @@
  *
  */
  @import "bootstrap";
+
+.user-box {
+    padding: 60px;
+    border-radius: 30px;
+    border: 100px double red;
+    border-right: inset 150px green;
+    border-left: double 40px #0000ff;
+    background-color: yellow;
+  }
