@@ -40,7 +40,7 @@ class PostsController < ApplicationController
   private
 
   def post_params # ストロングパラメータを定義する
-    params.require(:post).permit(:title, :body)
+    params.require(:post).permit(:title, :body, :category_id)
   end
   def set_post
     @post = Post.find(params[:id])
